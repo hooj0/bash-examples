@@ -1,0 +1,8 @@
+total 18
+-rw-r--r-- 1 JojO 197121    0 六月  7 21:50 file
+-rwxr-xr-x 1 JojO 197121 1134 六月  7 21:47 file_dev_null.sh*
+-rwxr-xr-x 1 JojO 197121 1692 六月  7 21:43 file_eof.sh*
+-rwxr-xr-x 1 JojO 197121 2004 六月  7 21:30 file_stdin.sh*
+-rwxr-xr-x 1 JojO 197121 3763 六月  7 21:30 file_stdout.sh*
+-rw-r--r-- 1 JojO 197121    2 六月  7 21:27 stats
+-rw-r--r-- 1 JojO 197121  183 六月  7 21:23 users
