@@ -25,7 +25,9 @@
 # -s file	检测文件是否为空（文件大小是否大于0），不为空返回 true。					[ -s $file ] 返回 true。
 # -e file	检测文件（包括目录）是否存在，如果是，则返回 true。							[ -e $file ] 返回 true。
 #------------------------------------------------------------------------------------------------------------
-
+# file1 -nt file2     # file1 比 file2 更新
+# file1 -ot file2     # file1 比 file2 更老
+#----------------------------------------------------------------------
 
 
 #----------------------------------------------------------------------
@@ -92,6 +94,17 @@ else
    echo "文件不存在"
 fi
 
+# file1 -nt file2     # file1 比 file2 更新
+# file1 -ot file2     # file1 比 file2 更老
+file1="./operator_boolean.sh"
+file2="./operator_file.sh"
+if [ $file1 -nt $file2 ]; then
+	echo "file1 比 file2 更新"
+fi
+
+if [ $file1 -ot $file2 ]; then
+	echo "file1 比 file2 更老"
+fi	
 
 
 # 执行脚本，输出结果如下所示：
@@ -104,3 +117,5 @@ fi
 # 文件不是个目录
 # 文件不为空
 # 文件存在
+
+read exits

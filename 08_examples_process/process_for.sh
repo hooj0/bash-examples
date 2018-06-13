@@ -94,4 +94,10 @@ done
 # 这是第4次调用
 # 这是第5次调用
 
+
+for x:=1 to 10 do
+begin
+  echo $x
+end
+
 read status

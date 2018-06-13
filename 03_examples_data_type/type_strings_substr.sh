@@ -91,7 +91,7 @@ echo
 
 
 # ==============================================================
-# 				实力演示
+# 				实例演示
 # ==============================================================
 
 var="http://www.hoojo.com/linux/linux-shell-variable.html"
@@ -118,3 +118,11 @@ echo "##*/的效果："${s5}
 # %%.*的效果：http://www
 # #*/的效果：/www.hoojo.com/linux/linux-shell-variable.html
 # ##*/的效果：linux-shell-variable.html
+
+
+
+
+# -------------------------------------------------------------------
+
+${variable/pattern/string}  # 把变量值中匹配 pattern 的最长的部分替换为 string，只替换第一个匹配的部分
+${variable//pattern/string} # 把变量值中匹配 pattern 的最长的部分替换为 string，全局进行替换
