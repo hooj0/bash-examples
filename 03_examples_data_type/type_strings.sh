@@ -63,3 +63,9 @@ string="shell is a great company"
 echo `expr index "$string" is`
 
 # 注意： 以上脚本中 "`" 是反引号，而不是单引号 "'"
+
+
+
+# 字符串自动组合
+# ---------------------------------------------------------------------
+echo file{.txt,.bak,.sh}

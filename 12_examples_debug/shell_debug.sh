@@ -1,4 +1,6 @@
 #!/bin/bash
+set -euo pipefail
+trap "echo 'error: Script failed: see failed command above'" ERR
 
 # =================================================================
 #		shell —— debug 脚本调试
@@ -10,6 +12,10 @@
 # bash -n scriptname
 # bash -v scriptname
 # bash -x scriptname
+# -----------------------------------------------------------------
+# set -euo pipefail
+# trap "echo 'error: Script failed: see failed command above'" ERR
+# 一个好的习惯是在脚本文件开头这样写，这会使它能够检测一些错误，并在错误发生时中断程序并输出信息
 # -----------------------------------------------------------------
 
 
