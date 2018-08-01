@@ -1,4 +1,11 @@
 #!/bin/bash
+# author:   hoojo
+# email:    hoojo_@126.com
+# github:   https://github.com/hooj0
+# create date: 2018-06-02
+# copyright by hoojo @ 2018
+
+
 
 #==============================================================
 #			read 命令用于获取键盘输入信息
@@ -22,7 +29,6 @@ echo `expr $a + $b`
 
 # 测试结果：
 # -------------------------------------------------------------
-
 # input a val:1
 # input b val:2
 # result = 3
@@ -64,4 +70,4 @@ echo "\npassword is $password"
  
 # $ sh test.sh 
 # 请输入一段文字:
-# password is asdfgh
+# password is 123123
