@@ -70,6 +70,22 @@ echo "var: $var"
 
 
 
+#变量$foo尚未设置。在严格模式下，下一行触发错误。
+bar=$foo
+
+# ${VARNAME:-DEFAULT_VALUE} 如果 VARNAME 未定义，则使用 DEFAULT_VALUE 作为默认值.
+# So here, $bar is set to "alpha":
+bar=${foo:-alpha}
+
+# 现在我们明确地设置foo：
+foo="beta"
+
+# 忽略默认值. $bar = "beta":
+bar=${foo:-alpha}
+
+# 要使默认值为空字符串，请使用 ${VARNAME:-}
+empty_string=${some_undefined_var:-}
+
 read exits
 
 
