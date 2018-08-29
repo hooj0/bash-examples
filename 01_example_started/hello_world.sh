@@ -1,4 +1,12 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-05-26 20:12:45
+# @copyright by hoojo@2018
+# @changelog Added python3 `F:->Example Exercise->Bash->01 example started->hello world` example
+
+
 # --------------------------------------------------------------------------
 # 	#! 是一个约定的标记，它告诉系统这个脚本需要什么解释器来执行，即使用哪一种 Shel
 # --------------------------------------------------------------------------
