@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-05-29 22:44:12
+# @copyright by hoojo@2018
+# @changelog Added python3 `process->each` example
 
 my_arry=(a b "c","d" abc)
 echo "-------FOR循环遍历输出数组--------"
