@@ -1,11 +1,10 @@
-#!/bin/sh
-# author:   hoojo
-# email:    hoojo_@126.com
-# github:   https://github.com/hooj0
-# create date: 2018-07-28
-# copyright by hoojo @ 2018
-# @changelog Add bash file shell option args use 
-
+#!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-07-28 09:38:08
+# @copyright by hoojo@2018
+# @changelog Add bash file shell option args use
 
 
 # =================================================================
