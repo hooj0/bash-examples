@@ -1,4 +1,12 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-05-29 22:45:37
+# @copyright by hoojo@2018
+# @changelog Added python3 `data type->type strings substr` example
+
+
 
 #==============================================================
 # Linux 的字符串截取八种方法
