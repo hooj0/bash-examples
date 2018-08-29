@@ -1,10 +1,10 @@
 #!/bin/bash
-# author:   hoojo
-# email:    hoojo_@126.com
-# github:   https://github.com/hooj0
-# create date: 2018-06-02
-# copyright by hoojo @ 2018
-
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-05-30 20:48:11
+# @copyright by hoojo@2018
+# @changelog Added python3 `args->args read` example
 
 
 #==============================================================
