@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-06-18 11:19:11
+# @copyright by hoojo@2018
+# @changelog Added python3 `file->file help` example
 
 # ======================================================================
 #					Shell 输入/输出重定向————Here Document
