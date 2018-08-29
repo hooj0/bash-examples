@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-05-27 16:04:25
+# @copyright by hoojo@2018
+# @changelog Added python3 `variable->var readonly` example
 
 ##################################################################
 #							只读变量
