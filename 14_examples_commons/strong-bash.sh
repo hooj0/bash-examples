@@ -1,10 +1,10 @@
 #!/bin/bash
-# author:   hoojo
-# email:    hoojo_@126.com
-# github:   https://github.com/hooj0
-# create: 	2018-07-01
-# copyright by hoojo@2018
-# @changelog Add What should be a strong and healthy bash script? List 13 scripting requirements
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-07-01 21:37:12
+# @copyright by hoojo@2018
+# @changelog Added python3 `commons->strong-bash` example
 
 
 # =================================================================
