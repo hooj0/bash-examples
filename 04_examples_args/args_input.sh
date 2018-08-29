@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-05-27 22:25:13
+# @copyright by hoojo@2018
+# @changelog Added python3 `args->args input` example
 
 # ----------------------------------------------------------------------
 # 	Shell 传递参数
