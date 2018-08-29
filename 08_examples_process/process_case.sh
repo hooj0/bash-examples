@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-06-04 22:54:41
+# @copyright by hoojo@2018
+# @changelog Added python3 `process->process case` example
 
 # ======================================================================
 #					流程语句———— case
