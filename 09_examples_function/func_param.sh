@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-06-06 21:40:12
+# @copyright by hoojo@2018
+# @changelog Added python3 `function->func param` example
 
 # ======================================================================
 #					Shell 函数————函数参数
