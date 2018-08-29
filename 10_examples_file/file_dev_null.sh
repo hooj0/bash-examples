@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-06-07 21:44:32
+# @copyright by hoojo@2018
+# @changelog Added python3 `file->file dev null` example
 
 # ======================================================================
 #					Shell 输入/输出重定向————/dev/null 文件
