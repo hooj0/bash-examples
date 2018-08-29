@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-05-30 22:55:48
+# @copyright by hoojo@2018
+# @changelog Added python3 `output->printfc output` example
 
 # ===========================================================
 #			printf的转义序列
