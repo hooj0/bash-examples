@@ -1,11 +1,10 @@
 #!/bin/bash
-# ------------------------------------------------------------------------------
-# author:   hoojo
-# email:    hoojo_@126.com
-# github:   https://github.com/hooj0
-# create date: 2018-06-28
-# copyright by hoojo @ 2018
-# ------------------------------------------------------------------------------
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-06-21 22:47:15
+# @copyright by hoojo@2018
+# @changelog Added python3 `debug->shell debug` example
 
 # 启用
 set -euo pipefail
