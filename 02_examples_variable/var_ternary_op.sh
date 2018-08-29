@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-06-12 23:03:00
+# @copyright by hoojo@2018
+# @changelog Added python3 `variable->var ternary op` example
 
 # ======================================================================
 #					变量三元运算
