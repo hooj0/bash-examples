@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-05-27 22:33:25
+# @copyright by hoojo@2018
+# @changelog Added python3 `args->args special` example
 
 #--------------------------------------------------------
 # 特殊参数
