@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-06-12 21:01:18
+# @copyright by hoojo@2018
+# @changelog Added python3 `import->import file` example
 
 # ======================================================================
 #					Shell 文件导入
