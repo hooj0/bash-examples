@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-06-03 09:48:00
+# @copyright by hoojo@2018
+# @changelog Added python3 `process->process unlimit loop` example
 
 # ======================================================================
 #					流程语句————无限循环
