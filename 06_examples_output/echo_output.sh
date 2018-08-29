@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-05-30 20:59:40
+# @copyright by hoojo@2018
+# @changelog Added python3 `output->echo output` example
 
 
 # ===================================================================
