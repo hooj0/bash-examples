@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-06-18 10:29:15
+# @copyright by hoojo@2018
+# @changelog Added python3 `process->process select` example
 
 # ======================================================================
 #					Shell —— 循环语句 select
