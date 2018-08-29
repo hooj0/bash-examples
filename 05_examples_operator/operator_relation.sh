@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-05-29 21:07:13
+# @copyright by hoojo@2018
+# @changelog Added python3 `operator->operator relation` example
 
 #-----------------------------------------------------------------------
 #			关系运算符
