@@ -7,7 +7,7 @@
 ## hello_world 
 [`hello_world`](./01_example_started/hello_world.sh)
 
-```python 
+```bash 
 # ==========================================================================
 # 运行 Shell 脚本有两种方法：
 # ==========================================================================
@@ -56,7 +56,7 @@
 ## var_assignment 
 [`var_assignment`](./02_examples_variable/var_assignment.sh)
 
-```python 
+```bash 
 r=`expr $a + $b`
 echo "result: $r"
 
@@ -103,7 +103,7 @@ var=$((var-1))        # 展开成 var=2，var 现在是……还用说吗，2。
 ## var_declare 
 [`var_declare`](./02_examples_variable/var_declare.sh)
 
-```python 
+```bash 
 #var$temp="st1" # var=st1: 未找到命令
 
 #####################################################################
@@ -150,7 +150,7 @@ done
 ## var_delete 
 [`var_delete`](./02_examples_variable/var_delete.sh)
 
-```python 
+```bash 
 #
 #	变量被删除后不能再次使用。
 #	unset 命令不能删除只读变量。
@@ -170,7 +170,7 @@ echo $var_tmp
 ## var_readonly 
 [`var_readonly`](./02_examples_variable/var_readonly.sh)
 
-```python 
+```bash 
 readonly myUrl
 
 # 下面的例子尝试更改只读变量，结果报错：
@@ -183,7 +183,7 @@ myUrl="http://www.runoob.com"
 ## var_scope 
 [`var_scope`](./02_examples_variable/var_scope.sh)
 
-```python 
+```bash 
 #	2) 环境变量 所有的程序，包括shell启动的程序，都能访问环境变量，有些程序需要环境变量来保证其正常运行。必要的时候shell脚本也可以定义环境变量。
 #	3) shell变量 shell变量是由shell程序设置的特殊变量。shell变量中有一部分是环境变量，有一部分是局部变量，这些变量保证了shell的正常运行
 
@@ -192,14 +192,14 @@ myUrl="http://www.runoob.com"
 ## var_ternary_op 
 [`var_ternary_op`](./02_examples_variable/var_ternary_op.sh)
 
-```python 
+```bash 
 ${varname:+word}    # 如果 varname 存在而且不为 null，返回 word，否则返回 null
 ${varname:offset:length}    # 它返回 $varname 的子字符串，从 offset 处开始，长度为 length 
 ```
 ## var_used 
 [`var_used`](./02_examples_variable/var_used.sh)
 
-```python 
+```bash 
 
 your_name="qinjx"
 echo $your_name
@@ -228,7 +228,7 @@ echo $your_name
 ## type_arrays 
 [`type_arrays`](./03_examples_data_type/type_arrays.sh)
 
-```python 
+```bash 
 # 获取数组中的元素要利用下标，下标可以是整数或算术表达式，其值应大于或等于0。
 #########################################################################
 
@@ -275,7 +275,7 @@ echo "array[1]: ${array_name[1]}"
 ## type_strings 
 [`type_strings`](./03_examples_data_type/type_strings.sh)
 
-```python 
+```bash 
 #
 # 单引号里的任何字符都会原样输出，单引号字符串中的变量是无效的；
 # 单引号字串中不能出现单引号（对单引号使用转义符也不行）。
@@ -322,7 +322,7 @@ string="hello,everyone my name is xiaoming"
 ## type_strings_substr 
 [`type_strings_substr`](./03_examples_data_type/type_strings_substr.sh)
 
-```python 
+```bash 
 # 	一个 # 表示从左边删除到第一个指定的字符；
 #	两个 # 表示从左边删除到最后一个指定的字符。
 
@@ -371,7 +371,7 @@ echo ${var%/*} # 结果是：http://www.aaa.com
 ## args_file 
 [`args_file`](./04_examples_args/args_file.sh)
 
-```python 
+```bash 
 
 # =================================================================
 #		脚本文件选项参数的遍历与使用
@@ -418,7 +418,7 @@ printf "\n\n"
 ## args_input 
 [`args_input`](./04_examples_args/args_input.sh)
 
-```python 
+```bash 
 #-----------------------------------------------------------------------
 
 
@@ -447,7 +447,7 @@ echo "第三个参数为：$3";
 ## args_read 
 [`args_read`](./04_examples_args/args_read.sh)
 
-```python 
+```bash 
 #==============================================================
 #			read 命令用于获取键盘输入信息
 #==============================================================
@@ -494,7 +494,7 @@ echo "第一个参数:$firstStr; 第二个参数:$secondStr"
 ## args_special 
 [`args_special`](./04_examples_args/args_special.sh)
 
-```python 
+```bash 
 #				如"$*"用「"」括起来的情况、以"$1 $2 … $n"的形式输出所有参数。
 #	$$			脚本运行的当前进程ID号
 #	$!			后台运行的最后一个进程的ID号
@@ -541,7 +541,7 @@ done
 ## operator_boolean 
 [`operator_boolean`](./05_examples_operator/operator_boolean.sh)
 
-```python 
+```bash 
 # !			非运算，表达式为 true 则返回 false，否则返回 true。		[ ! false ] 返回 true。
 # -o		或运算，有一个表达式为 true 则返回 true。				[ $a -lt 20 -o $b -gt 100 ] 返回 true。
 # -a		与运算，两个表达式都为 true 才返回 true。				[ $a -lt 20 -a $b -gt 100 ] 返回 false。
@@ -588,7 +588,7 @@ then
 ## operator_file 
 [`operator_file`](./05_examples_operator/operator_file.sh)
 
-```python 
+```bash 
 # 操作符			说明																		举例
 #------------------------------------------------------------------------------------------------------------
 # -b file	检测文件是否是块设备文件，如果是，则返回 true。								[ -b $file ] 返回 false。
@@ -635,7 +635,7 @@ if [ -w $file ]
 ## operator_math 
 [`operator_math`](./05_examples_operator/operator_math.sh)
 
-```python 
+```bash 
 # +				加法										`expr $a + $b` 结果为 30。
 # -				减法										`expr $a - $b` 结果为 -10。
 # *				乘法										`expr $a \* $b` 结果为  200。
@@ -682,7 +682,7 @@ if [ $a == $b ]
 ## operator_overview 
 [`operator_overview`](./05_examples_operator/operator_overview.sh)
 
-```python 
+```bash 
 #	布尔运算符
 #	字符串运算符
 #	文件测试运算符
@@ -714,7 +714,7 @@ echo "两数之和为 : $val"
 ## operator_relation 
 [`operator_relation`](./05_examples_operator/operator_relation.sh)
 
-```python 
+```bash 
 #-----------------------------------------------------------------------
 # 运算符		说明														举例
 #-----------------------------------------------------------------------
@@ -761,7 +761,7 @@ else
 ## operator_string 
 [`operator_string`](./05_examples_operator/operator_string.sh)
 
-```python 
+```bash 
 #----------------------------------------------------------------------------
 # =			检测两个字符串是否相等，相等返回 true。		[ $a = $b ] 返回 false。
 # !=		检测两个字符串是否相等，不相等返回 true。		[ $a != $b ] 返回 true。
@@ -810,7 +810,7 @@ fi
 ## echo_output 
 [`echo_output`](./06_examples_output/echo_output.sh)
 
-```python 
+```bash 
 # 		echo string
 #
 # 	echo -e 开启转义
@@ -857,7 +857,7 @@ echo "\"It is a test\""
 ## printfc_output 
 [`printfc_output`](./06_examples_output/printfc_output.sh)
 
-```python 
+```bash 
 # \c	抑制（不显示）输出结果中任何结尾的换行字符（只在%b格式指示符控制下的参数字符串中有效），
 #		而且，任何留在参数里的字符、任何接下来的参数以及任何留在格式字符串中的字符，都被忽略
 # \f	换页（formfeed）
@@ -888,7 +888,7 @@ printf "\ngo back\b gogogo\n"
 ## printf_output 
 [`printf_output`](./06_examples_output/printf_output.sh)
 
-```python 
+```bash 
 # ---------------------------------------------------------------------------------
 # printf 命令的语法：
 # 		printf  format-string  [arguments...]
@@ -937,7 +937,7 @@ printf "%-10s %-8s %-4.2f\n" 郭芙 女 47.9876
 ## test_file 
 [`test_file`](./07_examples_test/test_file.sh)
 
-```python 
+```bash 
 # ------------------------------------------------------------------------------
 # -e 文件名		如果文件存在						则为真
 # -r 文件名		如果文件存在且可读				则为真
@@ -984,7 +984,7 @@ else
 ## test_math 
 [`test_math`](./07_examples_test/test_math.sh)
 
-```python 
+```bash 
 # 参数				说明
 # ------------------------------------------------------------------------------
 # -eq			等于			则为真
@@ -1031,7 +1031,7 @@ fi
 ## test_string 
 [`test_string`](./07_examples_test/test_string.sh)
 
-```python 
+```bash 
 # 参数					说明
 # ------------------------------------------------------------------------------
 # =				等于					则为真
@@ -1077,7 +1077,7 @@ fi
 ## each 
 [`each`](./08_examples_process/each.sh)
 
-```python 
+```bash 
 echo "-------::::WHILE循环输出 使用 let i++ 自增:::::---------"
 j=0
 while [ $j -lt ${#my_arry[@]} ]
@@ -1115,7 +1115,7 @@ read status
 ## process_case 
 [`process_case`](./08_examples_process/process_case.sh)
 
-```python 
+```bash 
 
 # case 值 in
 # 模式1)
@@ -1162,7 +1162,7 @@ case $aNum in
 ## process_for 
 [`process_for`](./08_examples_process/process_for.sh)
 
-```python 
+```bash 
 
 
 # for循环一般格式为：
@@ -1209,7 +1209,7 @@ done
 ## process_ifelse 
 [`process_ifelse`](./08_examples_process/process_ifelse.sh)
 
-```python 
+```bash 
 # ----------------------------------------------------------------------
 # if 语句语法格式：
 # ----------------------------------------------------------------------
@@ -1256,7 +1256,7 @@ if [ $(ps -ef | grep -c "ssh") -gt 1 ]; then echo "true"; fi  # 末尾的fi就�
 ## process_loop_jump 
 [`process_loop_jump`](./08_examples_process/process_loop_jump.sh)
 
-```python 
+```bash 
 # 	break命令
 # ----------------------------------------------------------------------
 # break命令允许跳出所有循环（终止执行后面的所有循环）。
@@ -1303,7 +1303,7 @@ done
 ## process_select 
 [`process_select`](./08_examples_process/process_select.sh)
 
-```python 
+```bash 
 
 
 # ----------------------------------------------------------------------
@@ -1350,7 +1350,7 @@ IFS=$' \t\n'
 ## process_unlimit_loop 
 [`process_unlimit_loop`](./08_examples_process/process_unlimit_loop.sh)
 
-```python 
+```bash 
 
 # 无限循环语法格式：
 
@@ -1397,7 +1397,7 @@ function test2() {
 ## process_until 
 [`process_until`](./08_examples_process/process_until.sh)
 
-```python 
+```bash 
 
 
 # ----------------------------------------------------------------------
@@ -1441,7 +1441,7 @@ read a
 ## process_while 
 [`process_while`](./08_examples_process/process_while.sh)
 
-```python 
+```bash 
 # while condition
 # do
 #    command
@@ -1490,7 +1490,7 @@ echo "c: $c"
 ## func_param 
 [`func_param`](./09_examples_function/func_param.sh)
 
-```python 
+```bash 
 # 注意，$10 不能获取第十个参数，获取第十个参数需要${10}。当n>=10时，需要使用${n}来获取参数。
 # -----------------------------------------------------------------------
 
@@ -1537,7 +1537,7 @@ funWithParam 1 2 3 4 5 6 7 8 9 34 73
 ## func_started 
 [`func_started`](./09_examples_function/func_started.sh)
 
-```python 
+```bash 
 
 # [ function ] funname [()]
 # {
@@ -1586,7 +1586,7 @@ funWithReturn(){
 ## file_dev_null 
 [`file_dev_null`](./10_examples_file/file_dev_null.sh)
 
-```python 
+```bash 
 $ command > /dev/null
 
 # /dev/null 是一个特殊的文件，写入到它的内容都会被丢弃；如果尝试从该文件读取内容，那么什么也读不到。
@@ -1605,7 +1605,7 @@ $ command > /dev/null 2>&1
 ## file_eof 
 [`file_eof`](./10_examples_file/file_eof.sh)
 
-```python 
+```bash 
 # command << delimiter
 #     document
 # delimiter
@@ -1652,7 +1652,7 @@ EOF
 ## file_help 
 [`file_help`](./10_examples_file/file_help.sh)
 
-```python 
+```bash 
 
 
 
@@ -1679,7 +1679,7 @@ echo -e "\033]0;$1\007"
 ## file_stdin 
 [`file_stdin`](./10_examples_file/file_stdin.sh)
 
-```python 
+```bash 
 #
 # 注意：输出重定向是大于号(>)，输入重定向是小于号(<)。
 # ----------------------------------------------------------------------
@@ -1726,7 +1726,7 @@ $ wc -l < users > stats
 ## file_stdout 
 [`file_stdout`](./10_examples_file/file_stdout.sh)
 
-```python 
+```bash 
 
 # 重定向命令列表如下：
 # ----------------------------------------------------------------------
@@ -1775,7 +1775,7 @@ $ wc -l < users > stats
 ## import_file 
 [`import_file`](./11_examples_import/import_file.sh)
 
-```python 
+```bash 
 # . filename   
 # 注意点号(.)和文件名中间有一空格
 
@@ -1816,7 +1816,7 @@ read exits
 ## test1 
 [`test1`](./11_examples_import/test1.sh)
 
-```python 
+```bash 
  
 ```
 # 12_examples_debug 
@@ -1824,7 +1824,7 @@ read exits
 ## shell_debug 
 [`shell_debug`](./12_examples_debug/shell_debug.sh)
 
-```python 
+```bash 
 # 启用
 set -euo pipefail
 trap "echo 'error: Script failed: see failed command above'" ERR
@@ -1873,7 +1873,7 @@ bash -n debug.sh
 ## ifs_test 
 [`ifs_test`](./13_examples_settings/ifs_test.sh)
 
-```python 
+```bash 
 
 
 # =================================================================
@@ -1914,7 +1914,7 @@ done
 ## settings_ifs 
 [`settings_ifs`](./13_examples_settings/settings_ifs.sh)
 
-```python 
+```bash 
 # =================================================================
 #	设置IFS —— 设置分词的方式
 # =================================================================
@@ -1963,7 +1963,7 @@ done
 ## check-args 
 [`check-args`](./14_examples_commons/check-args.sh)
 
-```python 
+```bash 
 # =================================================================
 # 在严格模式下，您需要将此用于所有位置参数引用
 # =================================================================
@@ -1993,7 +1993,7 @@ echo "Hello, $name"
 ## force-clean 
 [`force-clean`](./14_examples_commons/force-clean.sh)
 
-```python 
+```bash 
 # =================================================================
 #	clean —— 在脚本退出的时候强制清理资源
 # =================================================================
@@ -2024,7 +2024,7 @@ trap finish EXIT
 ## strong-bash 
 [`strong-bash`](./14_examples_commons/strong-bash.sh)
 
-```python 
+```bash 
 # =================================================================
 #		强壮健康的bash脚本应该是怎么样的？
 # =================================================================
@@ -2073,7 +2073,7 @@ function help() {
 ## comment 
 [`comment`](.//comment.sh)
 
-```python 
+```bash 
 # =================================================================
 #
 # =================================================================
