@@ -1,4 +1,10 @@
 #!/bin/bash
+# @author: hoojo
+# @email: hoojo_@126.com
+# @github: https://github.com/hooj0
+# @create date: 2018-05-31 20:58:14
+# @copyright by hoojo@2018
+# @changelog Added python3 `test->test string` example
 
 # ==============================================================================
 #				Shell test 命令————字符串测试
