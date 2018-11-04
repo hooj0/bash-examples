@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-27 18:05:28
 # @copyright by hoojo@2018
-# @changelog Added python3 `data type->type arrays` example
+# @changelog Added bash `data type->type arrays` example
 
 
 
