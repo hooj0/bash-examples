@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-03 09:52:32
 # @copyright by hoojo@2018
-# @changelog Added python3 `variable->var assignment` example
+# @changelog Added bash `variable->var assignment` example
 
 # ======================================================================
 #					变量赋值操作
@@ -34,13 +34,13 @@ echo "result-d: $d"
 # ------------------------------------------------------------------
 
 var=0
-(( var += 1 )) # 这是一种，现在 var 是 1
+(( var += 1 )) # 现在 var 是 1
 echo "var: $var"
 
-(( var++ ))    # 这也是一种自增，2
+(( var++ ))    # 自增，2
 echo "var: $var"
 
-(( var = var * var )) # 怎么来乘法了！var 现在是 4。
+(( var = var * var )) # 乘法了, var 现在是 4。
 echo "var: $var"
 
 
@@ -92,7 +92,6 @@ bar=${foo:-alpha}
 # 要使默认值为空字符串，请使用 ${VARNAME:-}
 empty_string=${some_undefined_var:-}
 
-read exits
 
 
 
@@ -109,4 +108,4 @@ read exits
 
 
 
-read key
+
