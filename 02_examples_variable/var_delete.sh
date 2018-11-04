@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-27 16:23:26
 # @copyright by hoojo@2018
-# @changelog Added python3 `variable->var delete` example
+# @changelog Added bash `variable->var delete` example
 
 ##############################################################
 #						删除变量
