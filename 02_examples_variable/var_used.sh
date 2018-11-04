@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-27 13:05:47
 # @copyright by hoojo@2018
-# @changelog Added python3 `variable->var used` example
+# @changelog Added bash `variable->var used` example
 
 ###############################################################
 #					使用变量
@@ -14,7 +14,7 @@
 ###############################################################
 # 使用一个定义过的变量，只要在变量名前面加美元符号即可，如：
 
-your_name="qinjx"
+your_name="joe"
 echo $your_name
 echo ${your_name}
 
