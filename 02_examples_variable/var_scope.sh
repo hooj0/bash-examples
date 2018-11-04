@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-27 16:31:29
 # @copyright by hoojo@2018
-# @changelog Added python3 `variable->var scope` example
+# @changelog Added bash `variable->var scope` example
 
 ###########################################################################
 #						变量作用域类型
