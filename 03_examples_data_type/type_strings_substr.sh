@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-29 22:45:37
 # @copyright by hoojo@2018
-# @changelog Added python3 `data type->type strings substr` example
+# @changelog Added bash `data type->type strings substr` example
 
 
 
