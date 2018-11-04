@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-27 12:20:23
 # @copyright by hoojo@2018
-# @changelog Added python3 `variable->var declare` example
+# @changelog Added bash `variable->var declare` example
 #####################################################################
 # 							声明变量
 #####################################################################
@@ -50,8 +50,8 @@ var2=3
 # 除了显式地直接赋值，还可以用语句给变量赋值，如：
 
 # 将 /etc 下目录的文件名循环出来。
-for file in `ls /etc`; 
-	do echo $file;
+for file in `ls /etc`; do
+	echo $file;
 done
 
 # 或
