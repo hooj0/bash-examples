@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-06 21:32:35
 # @copyright by hoojo@2018
-# @changelog Added python3 `function->func started` example
+# @changelog Added bash `function->func started` example
 
 # ======================================================================
 #					Shell 函数————function
@@ -66,6 +66,16 @@ funWithReturn(){
 
 funWithReturn
 echo "输入的两个数字之和为 $? !"
+
+# 下面定义一个带有字符串模板语句的函数：
+# ----------------------------------------------------------------------
+report_uptime () {
+  cat <<- _EOF_
+  <H2>System Uptime</H2>
+  <PRE>$(uptime)</PRE>
+  _EOF_
+  return
+}
 
 read exits
 
