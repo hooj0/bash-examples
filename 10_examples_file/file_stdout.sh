@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-07 20:53:50
 # @copyright by hoojo@2018
-# @changelog Added python3 `file->file stdout` example
+# @changelog Added bash `file->file stdout` example
 
 # ======================================================================
 #			Shell 输入/输出重定向————输出重定向
