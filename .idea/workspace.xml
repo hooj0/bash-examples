@@ -4,28 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c829542-82fa-4fd1-9994-88f64cac70d7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_examples_variable/var_declare.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02_examples_variable/var_declare.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_examples_operator/operator_boolean.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05_examples_operator/operator_boolean.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_examples_operator/operator_file.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05_examples_operator/operator_file.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_examples_operator/operator_math.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05_examples_operator/operator_math.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_examples_operator/operator_overview.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05_examples_operator/operator_overview.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_examples_operator/operator_relation.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05_examples_operator/operator_relation.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_examples_operator/operator_string.sh" beforeDir="false" afterPath="$PROJECT_DIR$/05_examples_operator/operator_string.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_examples_output/echo_output.sh" beforeDir="false" afterPath="$PROJECT_DIR$/06_examples_output/echo_output.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_examples_output/printf_output.sh" beforeDir="false" afterPath="$PROJECT_DIR$/06_examples_output/printf_output.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_examples_output/printfc_output.sh" beforeDir="false" afterPath="$PROJECT_DIR$/06_examples_output/printfc_output.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_examples_test/test_file.sh" beforeDir="false" afterPath="$PROJECT_DIR$/07_examples_test/test_file.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_examples_test/test_math.sh" beforeDir="false" afterPath="$PROJECT_DIR$/07_examples_test/test_math.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_examples_test/test_string.sh" beforeDir="false" afterPath="$PROJECT_DIR$/07_examples_test/test_string.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_examples_process/each.sh" beforeDir="false" afterPath="$PROJECT_DIR$/08_examples_process/each.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_examples_process/process_case.sh" beforeDir="false" afterPath="$PROJECT_DIR$/08_examples_process/process_case.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_examples_process/process_for.sh" beforeDir="false" afterPath="$PROJECT_DIR$/08_examples_process/process_for.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_examples_process/process_ifelse.sh" beforeDir="false" afterPath="$PROJECT_DIR$/08_examples_process/process_ifelse.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_examples_process/process_loop_jump.sh" beforeDir="false" afterPath="$PROJECT_DIR$/08_examples_process/process_loop_jump.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_examples_process/process_select.sh" beforeDir="false" afterPath="$PROJECT_DIR$/08_examples_process/process_select.sh" afterDir="false" />
-    </list>
+    <list default="true" id="3c829542-82fa-4fd1-9994-88f64cac70d7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,92 +18,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="printfc_output.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06_examples_output/printfc_output.sh">
+      <file leaf-file-name="shell_debug.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12_examples_debug/shell_debug.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="-803">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_file.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07_examples_test/test_file.sh">
+      <file leaf-file-name="file_help.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10_examples_file/file_help.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_math.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07_examples_test/test_math.sh">
+      <file leaf-file-name="comment.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comment.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="29" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_string.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07_examples_test/test_string.sh">
+      <file leaf-file-name="file_here_document.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10_examples_file/file_here_document.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="each.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08_examples_process/each.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process_case.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08_examples_process/process_case.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process_for.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08_examples_process/process_for.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process_ifelse.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08_examples_process/process_ifelse.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process_loop_jump.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08_examples_process/process_loop_jump.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process_select.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/08_examples_process/process_select.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="87">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
@@ -180,6 +105,7 @@
         <option value="$PROJECT_DIR$/08_examples_process/process_ifelse.sh" />
         <option value="$PROJECT_DIR$/08_examples_process/process_loop_jump.sh" />
         <option value="$PROJECT_DIR$/08_examples_process/process_select.sh" />
+        <option value="$PROJECT_DIR$/10_examples_file/file_here_document.sh" />
       </list>
     </option>
   </component>
@@ -224,12 +150,12 @@
             <path>
               <item name="bash-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="bash-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="05_examples_operator" type="462c0819:PsiDirectoryNode" />
+              <item name="10_examples_file" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bash-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="bash-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="08_examples_process" type="462c0819:PsiDirectoryNode" />
+              <item name="12_examples_debug" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,6 +178,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work_private\bash-examples\10_examples_file" />
       <recent name="D:\work_private\bash-examples\01_example_started" />
     </key>
   </component>
@@ -342,7 +269,7 @@
       <workItem from="1529197573618" duration="372000" />
       <workItem from="1541658751379" duration="104000" />
       <workItem from="1541737710628" duration="4807000" />
-      <workItem from="1541910947897" duration="1577000" />
+      <workItem from="1541910947897" duration="3575000" />
     </task>
     <task id="LOCAL-00001" summary=":sparkles: :bento: Added bash `variable-&gt;var readonly` example">
       <created>1541998655995</created>
@@ -355,7 +282,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14743000" />
+    <option name="totallyTimeSpent" value="16741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,7 +295,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.3297062" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
@@ -377,9 +303,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32100108" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.6097561" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" visible="true" weight="0.6097561" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.27363896" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.27363896" />
       <window_info anchor="bottom" id="Docker" order="10" weight="0.3297062" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="6" />
@@ -407,17 +333,6 @@
     <option name="LAST_COMMIT_MESSAGE" value=":sparkles: :bento: Added bash `variable-&gt;var readonly` example" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6180">
-          <caret line="412" column="19" selection-start-line="412" selection-start-column="19" selection-end-line="412" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4_examples_args/args_special.sh" />
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -505,13 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comment.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -634,56 +542,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06_examples_output/printfc_output.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07_examples_test/test_file.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07_examples_test/test_math.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07_examples_test/test_string.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_examples_process/each.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_examples_process/process_case.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_examples_process/process_for.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_examples_process/process_ifelse.sh">
+    <entry file="file://$PROJECT_DIR$/08_examples_process/process_select.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
@@ -697,10 +556,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_examples_process/process_select.sh">
+    <entry file="file://$PROJECT_DIR$/08_examples_process/process_ifelse.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_examples_process/process_for.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_examples_process/process_case.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_examples_process/each.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_examples_test/test_string.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_examples_test/test_math.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_examples_test/test_file.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_examples_output/printfc_output.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_examples_debug/shell_debug.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-803">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_examples_file/file_help.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comment.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="29" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_examples_file/file_here_document.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
