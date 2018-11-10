@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-21 22:47:15
 # @copyright by hoojo@2018
-# @changelog Added python3 `debug->shell debug` example
+# @changelog Added bash `debug->shell debug` example
 
 # 启用
 set -euo pipefail
