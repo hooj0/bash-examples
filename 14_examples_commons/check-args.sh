@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-07-01 16:17:13
 # @copyright by hoojo@2018
-# @changelog Added python3 `commons->check-args` example
+# @changelog Added bash `commons->check-args` example
 
 
 # =================================================================
