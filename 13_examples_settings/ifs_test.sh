@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-07-01 15:48:10
 # @copyright by hoojo@2018
-# @changelog Added python3 `settings->ifs test` example
+# @changelog Added bash `settings->ifs test` example
 
 
 # =================================================================
