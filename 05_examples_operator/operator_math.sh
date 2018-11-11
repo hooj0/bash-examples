@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-29 21:02:47
 # @copyright by hoojo@2018
-# @changelog Added python3 `operator->operator math` example
+# @changelog Added bash `operator->operator math` example
 
 #------------------------------------------------------------------------
 # 			算术运算符
