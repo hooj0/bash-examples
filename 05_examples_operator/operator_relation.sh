@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-29 21:07:13
 # @copyright by hoojo@2018
-# @changelog Added python3 `operator->operator relation` example
+# @changelog Added bash `operator->operator relation` example
 
 #-----------------------------------------------------------------------
 #			关系运算符
