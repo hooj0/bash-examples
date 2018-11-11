@@ -58,3 +58,8 @@ done
 for file in $(ls /etc); do
 	echo $file;
 done
+
+
+
+# 在同一行中对多个变量赋值：
+a=5 b="a string"
