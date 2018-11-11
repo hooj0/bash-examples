@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-31 22:43:22
 # @copyright by hoojo@2018
-# @changelog Added python3 `process->process ifelse` example
+# @changelog Added bash `process->process ifelse` example
 
 # ======================================================================
 #					流程语句————判断逻辑流程
