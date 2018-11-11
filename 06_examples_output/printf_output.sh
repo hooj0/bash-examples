@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-30 21:20:51
 # @copyright by hoojo@2018
-# @changelog Added python3 `output->printf output` example
+# @changelog Added bash `output->printf output` example
 
 # ================================================================================
 #				Shell printf 命令
