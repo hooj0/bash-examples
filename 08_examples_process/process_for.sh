@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-03 09:13:52
 # @copyright by hoojo@2018
-# @changelog Added python3 `process->process for` example
+# @changelog Added bash `process->process for` example
 
 # ======================================================================
 #					流程语句————for 循环
