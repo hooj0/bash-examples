@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-31 20:58:04
 # @copyright by hoojo@2018
-# @changelog Added python3 `test->test math` example
+# @changelog Added bash `test->test math` example
 
 # ==============================================================================
 #				Shell test 命令————数值测试
