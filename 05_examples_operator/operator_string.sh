@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-29 21:09:31
 # @copyright by hoojo@2018
-# @changelog Added python3 `operator->operator string` example
+# @changelog Added bash `operator->operator string` example
 
 
 #----------------------------------------------------------------------------
