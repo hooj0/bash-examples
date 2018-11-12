@@ -20,3 +20,9 @@ myUrl="https://hooj0.github.io/"
 
 # 运行脚本，结果如下：
 # /bin/sh: NAME: This variable is read only.
+
+
+# 使用带有-r（只读）选项的内部命令 declare
+declare -r TITLE="Page Title"
+
+TITLE="new title"
