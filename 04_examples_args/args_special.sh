@@ -52,4 +52,23 @@ done
 echo "-- \$@ 演示 ---"
 for i in "$@"; do
     echo $i
-done 
+done
+
+
+
+# =================================================================
+# 示例：命令的退出状态
+# =================================================================
+ls -d /usr/bin  # /usr/bin
+echo $?         # 0
+
+
+ls -d /bin/usr  # ls: cannot access /bin/usr: No such file or directory
+echo $?         # 2
+
+# true 的状态为 0
+true
+echo $?         # 0
+
+# false 的状态为 1
+echo $?         # 1
