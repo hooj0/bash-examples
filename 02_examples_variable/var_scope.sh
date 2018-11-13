@@ -16,3 +16,35 @@
 #	2) 环境变量 所有的程序，包括shell启动的程序，都能访问环境变量，有些程序需要环境变量来保证其正常运行。必要的时候shell脚本也可以定义环境变量。
 #	3) shell变量 shell变量是由shell程序设置的特殊变量。shell变量中有一部分是环境变量，有一部分是局部变量，这些变量保证了shell的正常运行
 
+
+# =================================================================
+# 示例：变量的作用域
+# =================================================================
+foo=0 # global variable foo
+
+funct_1 () {
+    local foo  # 本地变量；variable foo local to funct_1
+    foo=1
+    echo "funct_1: foo = $foo"
+}
+
+funct_2 () {
+    local foo  # 本地变量；variable foo local to funct_2
+    foo=2
+    echo "funct_2: foo = $foo"
+}
+
+echo "global:  foo = $foo"
+funct_1
+echo "global: foo = $foo"
+funct_2
+echo "global: foo = $foo"
+
+
+# output:
+#-------------------------------------------------------------------
+# global:  foo = 0
+# funct_1: foo = 1
+# global:  foo = 0
+# funct_2: foo = 2
+# global:  foo = 0
