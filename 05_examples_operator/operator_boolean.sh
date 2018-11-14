@@ -27,48 +27,41 @@
 #---------------------------------------------------------------------
 # 布尔运算符实例如下：
 
-
 a=10
 b=20
 
-if [ $a != $b ]
-then
+if [ $a != $b ]; then
    echo "$a != $b : a 不等于 b"
 else
    echo "$a != $b: a 等于 b"
 fi
 
-if [ $a -lt 100 -a $b -gt 15 ]
-then
+if [ $a -lt 100 -a $b -gt 15 ]; then
    echo "$a 小于 100 且 $b 大于 15 : 返回 true"
 else
    echo "$a 小于 100 且 $b 大于 15 : 返回 false"
 fi
 
-if [ $a -lt 100 -o $b -gt 100 ]
-then
+if [ $a -lt 100 -o $b -gt 100 ]; then
    echo "$a 小于 100 或 $b 大于 100 : 返回 true"
 else
    echo "$a 小于 100 或 $b 大于 100 : 返回 false"
 fi
 
-if [ $a -lt 5 -o $b -gt 100 ]
-then
+if [ $a -lt 5 -o $b -gt 100 ]; then
    echo "$a 小于 5 或 $b 大于 100 : 返回 true"
 else
    echo "$a 小于 5 或 $b 大于 100 : 返回 false"
 fi
 
 #---------------------------------------------------------------------
-if [[ $a -lt 100 && $b -gt 100 ]]
-then
+if [[ $a -lt 100 && $b -gt 100 ]]; then
    echo "返回 true"
 else
    echo "返回 false"
 fi
 
-if [[ $a -lt 100 || $b -gt 100 ]]
-then
+if [[ $a -lt 100 || $b -gt 100 ]]; then
    echo "返回 true"
 else
    echo "返回 false"
@@ -82,3 +75,47 @@ fi
 # 10 小于 100 且 20 大于 15 : 返回 true
 # 10 小于 100 或 20 大于 100 : 返回 true
 # 10 小于 5 或 20 大于 100 : 返回 false
+
+
+
+# =================================================================
+# 示例：逻辑操作符条件运算
+# =================================================================
+MIN_VAL=1
+MAX_VAL=100
+INT=50
+if [[ "$INT" =~ ^-?[0-9]+$ ]]; then
+    if [[ INT -ge MIN_VAL && INT -le MAX_VAL ]]; then
+        echo "$INT is within $MIN_VAL to $MAX_VAL."
+    else
+        echo "$INT is out of range."
+    fi
+else
+    echo "INT is not an integer." >&2
+    exit 1
+fi
+
+
+
+# =================================================================
+# 示例：对表达式使用圆括号，为的是分组
+# =================================================================
+if [ ! \( $INT -ge $MIN_VAL -a $INT -le $MAX_VAL \) ]; then
+    echo "$INT is outside $MIN_VAL to $MAX_VAL."
+else
+    echo "$INT is in range."
+fi
+
+
+
+# =================================================================
+# 示例：一些其他用法
+# =================================================================
+# 创建一个名为 temp 的目录，并且若它执行成功后，当前目录会更改为 temp
+mkdir temp && cd temp
+
+# 测试目录 temp 是否存在，并且只有测试失败之后，才会创建这个目录
+[ -d temp ] || mkdir temp
+
+# 要求目录 temp，且目录不存在，然后脚本会终止，并返回退出状态1
+[ -d temp ] || exit 1
