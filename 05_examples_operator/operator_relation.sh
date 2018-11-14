@@ -137,3 +137,29 @@ fi
 # 10 -lt 20: a 小于 b
 # 10 -ge 20: a 小于 b
 # 10 -le 20: a 小于或等于 b
+
+
+
+# =================================================================
+# 示例：(( ))被用来执行算术真测试
+# =================================================================
+INT=-5
+if [[ "$INT" =~ ^-?[0-9]+$ ]]; then
+    if ((INT == 0)); then
+        echo "INT is zero."
+    else
+        if ((INT < 0)); then
+            echo "INT is negative."
+        else
+            echo "INT is positive."
+        fi
+        if (( ((INT % 2)) == 0)); then
+            echo "INT is even."
+        else
+            echo "INT is odd."
+        fi
+    fi
+else
+    echo "INT is not an integer." >&2
+    exit 1
+fi
