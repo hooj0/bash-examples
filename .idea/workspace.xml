@@ -7,8 +7,8 @@
     <list default="true" id="3c829542-82fa-4fd1-9994-88f64cac70d7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/04_examples_args/args_read.sh" beforeDir="false" afterPath="$PROJECT_DIR$/04_examples_args/args_read.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_examples_settings/ifs_test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/13_examples_settings/ifs_test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_examples_settings/settings_ifs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/13_examples_settings/settings_ifs.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_examples_process/process_until.sh" beforeDir="false" afterPath="$PROJECT_DIR$/08_examples_process/process_until.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_examples_process/process_while.sh" beforeDir="false" afterPath="$PROJECT_DIR$/08_examples_process/process_while.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,35 +26,35 @@
       <file leaf-file-name="comment.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comment.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="29" selection-end-column="67" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="args_read.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="args_read.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_examples_args/args_read.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="247">
+              <caret line="173" selection-start-line="173" selection-end-line="180" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ifs_test.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13_examples_settings/ifs_test.sh">
+      <file leaf-file-name="process_until.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08_examples_process/process_until.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="-23">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings_ifs.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13_examples_settings/settings_ifs.sh">
+      <file leaf-file-name="process_while.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08_examples_process/process_while.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="427">
+              <caret line="203" column="67" selection-start-line="203" selection-start-column="67" selection-end-line="203" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -91,8 +91,6 @@
         <option value="$PROJECT_DIR$/08_examples_process/process_loop_jump.sh" />
         <option value="$PROJECT_DIR$/08_examples_process/process_select.sh" />
         <option value="$PROJECT_DIR$/10_examples_file/file_here_document.sh" />
-        <option value="$PROJECT_DIR$/08_examples_process/process_while.sh" />
-        <option value="$PROJECT_DIR$/08_examples_process/process_until.sh" />
         <option value="$PROJECT_DIR$/08_examples_process/process_unlimit_loop.sh" />
         <option value="$PROJECT_DIR$/10_examples_file/file_dev_null.sh" />
         <option value="$PROJECT_DIR$/10_examples_file/file_eof.sh" />
@@ -124,6 +122,8 @@
         <option value="$PROJECT_DIR$/13_examples_settings/ifs_test.sh" />
         <option value="$PROJECT_DIR$/13_examples_settings/settings_ifs.sh" />
         <option value="$PROJECT_DIR$/04_examples_args/args_read.sh" />
+        <option value="$PROJECT_DIR$/08_examples_process/process_until.sh" />
+        <option value="$PROJECT_DIR$/08_examples_process/process_while.sh" />
       </list>
     </option>
   </component>
@@ -163,6 +163,11 @@
             <path>
               <item name="bash-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="bash-examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bash-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bash-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="08_examples_process" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bash-examples" type="b2602c69:ProjectViewProjectNode" />
@@ -287,7 +292,8 @@
       <workItem from="1541910947897" duration="3986000" />
       <workItem from="1542084506057" duration="2451000" />
       <workItem from="1542170183224" duration="4060000" />
-      <workItem from="1542256320020" duration="1804000" />
+      <workItem from="1542256320020" duration="2710000" />
+      <workItem from="1542343309032" duration="1660000" />
     </task>
     <task id="LOCAL-00001" summary=":sparkles: :bento: Added bash `variable-&gt;var readonly` example">
       <created>1541998655995</created>
@@ -300,7 +306,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25467000" />
+    <option name="totallyTimeSpent" value="28033000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,7 +330,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32100108" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.6097561" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.28653294" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917898" weight="0.2901146" />
       <window_info anchor="bottom" id="Docker" order="10" weight="0.3297062" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="6" />
@@ -340,6 +346,32 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298292" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="10" weight="0.3297062" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32100108" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info id="Structure" order="1" sideWeight="0.500821" side_tool="true" weight="0.25586355" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.3297062" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298292" />
+      <window_info id="Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Learn" order="2" weight="0.3296875" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.6097561" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.3297062" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info id="Favorites" order="3" sideWeight="0.500821" side_tool="true" weight="0.25586355" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.2901146" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -415,28 +447,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_examples_process/process_while.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_examples_process/process_until.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08_examples_process/process_unlimit_loop.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_examples_process/process_select.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
@@ -547,13 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
           <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_examples_args/args_special.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="72" column="14" lean-forward="true" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -676,6 +680,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/04_examples_args/args_special.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="14" lean-forward="true" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_examples_process/process_select.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_examples_settings/settings_ifs.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/13_examples_settings/ifs_test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -683,24 +708,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13_examples_settings/settings_ifs.sh">
+    <entry file="file://$PROJECT_DIR$/04_examples_args/args_read.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="247">
+          <caret line="173" selection-start-line="173" selection-end-line="180" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_examples_process/process_until.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comment.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="29" selection-end-column="67" />
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_examples_args/args_read.sh">
+    <entry file="file://$PROJECT_DIR$/08_examples_process/process_while.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        <state relative-caret-position="427">
+          <caret line="203" column="67" selection-start-line="203" selection-start-column="67" selection-end-line="203" selection-end-column="67" />
         </state>
       </provider>
     </entry>
