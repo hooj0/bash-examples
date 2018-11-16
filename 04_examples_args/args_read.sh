@@ -119,3 +119,93 @@ OLD_IFS="$IFS"
 IFS=":"
 read user pw uid gid name home shell <<< "$file_info"
 IFS="$OLD_IFS"
+
+
+
+# =================================================================
+# 示例：校正各种输入
+# =================================================================
+invalid_input () {
+    echo "Invalid input '$REPLY'" >&2
+    exit 1
+}
+
+read -p "Enter a single item > "
+
+# input is empty (invalid)
+[[ -z $REPLY ]] && invalid_input
+
+# input is multiple items (invalid)
+(( $(echo $REPLY | wc -w) > 1 )) && invalid_input
+
+# is input a valid filename?
+if [[ $REPLY =~ ^[-[:alnum:]\._]+$ ]]; then
+
+    echo "'$REPLY' is a valid filename."
+    if [[ -e $REPLY ]]; then
+        echo "And file '$REPLY' exists."
+    else
+        echo "However, file '$REPLY' does not exist."
+    fi
+
+    # is input a floating point number?
+    if [[ $REPLY =~ ^-?[[:digit:]]*\.[[:digit:]]+$ ]]; then
+        echo "'$REPLY' is a floating point number."
+    else
+        echo "'$REPLY' is not a floating point number."
+    fi
+
+    # is input an integer?
+    if [[ $REPLY =~ ^-?[[:digit:]]+$ ]]; then
+        echo "'$REPLY' is an integer."
+    else
+        echo "'$REPLY' is not an integer."
+    fi
+else
+    echo "The string '$REPLY' is not a valid filename."
+fi
+
+
+
+# =================================================================
+# 示例：构建一个菜单驱动程序来执行 上述菜单中的任务
+# =================================================================
+clear
+echo "
+Please Select:
+
+    1. Display System Information
+    2. Display Disk Space
+    3. Display Home Space Utilization
+    0. Quit
+"
+read -p "Enter selection [0-3] > "
+
+if [[ $REPLY =~ ^[0-3]$ ]]; then
+    if [[ $REPLY == 0 ]]; then
+        echo "Program terminated."
+        exit
+    fi
+    if [[ $REPLY == 1 ]]; then
+        echo "Hostname: $HOSTNAME"
+        uptime
+        exit
+    fi
+    if [[ $REPLY == 2 ]]; then
+        df -h
+        exit
+    fi
+    if [[ $REPLY == 3 ]]; then
+        if [[ $(id -u) -eq 0 ]]; then
+            echo "Home Space Utilization (All Users)"
+            du -sh /home/*
+        else
+            echo "Home Space Utilization ($USER)"
+            du -sh $HOME
+        fi
+        exit
+    fi
+else
+    echo "Invalid entry." >&2
+    exit 1
+fi
