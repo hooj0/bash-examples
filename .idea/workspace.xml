@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c829542-82fa-4fd1-9994-88f64cac70d7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_examples_args/args_read.sh" beforeDir="false" afterPath="$PROJECT_DIR$/04_examples_args/args_read.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_examples_process/process_until.sh" beforeDir="false" afterPath="$PROJECT_DIR$/08_examples_process/process_until.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08_examples_process/process_while.sh" beforeDir="false" afterPath="$PROJECT_DIR$/08_examples_process/process_while.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/comment.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="67" />
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="24" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -35,7 +33,7 @@
       <file leaf-file-name="args_read.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_examples_args/args_read.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="2595">
               <caret line="173" selection-start-line="173" selection-end-line="180" selection-end-column="1" />
             </state>
           </provider>
@@ -44,17 +42,35 @@
       <file leaf-file-name="process_until.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08_examples_process/process_until.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="345">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="process_while.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="process_while.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08_examples_process/process_while.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="203" column="67" selection-start-line="203" selection-start-column="67" selection-end-line="203" selection-end-column="67" />
+            <state relative-caret-position="180">
+              <caret line="12" column="72" lean-forward="true" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shell_debug.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12_examples_debug/shell_debug.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shell_program.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12_examples_debug/shell_program.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
             </state>
           </provider>
         </entry>
@@ -73,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03_examples_data_type/type_strings.sh" />
         <option value="$PROJECT_DIR$/03_examples_data_type/type_strings_substr.sh" />
         <option value="$PROJECT_DIR$/04_examples_args/args_input.sh" />
         <option value="$PROJECT_DIR$/01_example_started/hello_world.sh" />
@@ -124,6 +139,7 @@
         <option value="$PROJECT_DIR$/04_examples_args/args_read.sh" />
         <option value="$PROJECT_DIR$/08_examples_process/process_until.sh" />
         <option value="$PROJECT_DIR$/08_examples_process/process_while.sh" />
+        <option value="$PROJECT_DIR$/12_examples_debug/shell_program.sh" />
       </list>
     </option>
   </component>
@@ -167,12 +183,7 @@
             <path>
               <item name="bash-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="bash-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="08_examples_process" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bash-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bash-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="13_examples_settings" type="462c0819:PsiDirectoryNode" />
+              <item name="12_examples_debug" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,6 +207,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work_private\bash-examples\12_examples_debug" />
       <recent name="D:\work_private\bash-examples\08_examples_process" />
       <recent name="D:\work_private\bash-examples\10_examples_file" />
       <recent name="D:\work_private\bash-examples\09_examples_function" />
@@ -293,7 +305,8 @@
       <workItem from="1542084506057" duration="2451000" />
       <workItem from="1542170183224" duration="4060000" />
       <workItem from="1542256320020" duration="2710000" />
-      <workItem from="1542343309032" duration="1660000" />
+      <workItem from="1542343309032" duration="2546000" />
+      <workItem from="1542602434665" duration="2358000" />
     </task>
     <task id="LOCAL-00001" summary=":sparkles: :bento: Added bash `variable-&gt;var readonly` example">
       <created>1541998655995</created>
@@ -306,7 +319,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28033000" />
+    <option name="totallyTimeSpent" value="31277000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,7 +343,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32100108" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.6097561" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917898" weight="0.2901146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.2901146" />
       <window_info anchor="bottom" id="Docker" order="10" weight="0.3297062" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="6" />
@@ -346,32 +359,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298292" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="10" weight="0.3297062" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32100108" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="6" />
-      <window_info id="Structure" order="1" sideWeight="0.500821" side_tool="true" weight="0.25586355" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.3297062" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298292" />
-      <window_info id="Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Learn" order="2" weight="0.3296875" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.6097561" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.3297062" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info id="Favorites" order="3" sideWeight="0.500821" side_tool="true" weight="0.25586355" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.2901146" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -384,13 +371,6 @@
     <option name="LAST_COMMIT_MESSAGE" value=":sparkles: :bento: Added bash `variable-&gt;var readonly` example" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03_examples_data_type/type_arrays.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06_examples_output/echo_output.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -544,13 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12_examples_debug/shell_debug.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-983">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -710,29 +683,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04_examples_args/args_read.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="2595">
           <caret line="173" selection-start-line="173" selection-end-line="180" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/08_examples_process/process_until.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="345">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_examples_process/process_while.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="72" lean-forward="true" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_examples_debug/shell_debug.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comment.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="67" />
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_examples_process/process_while.sh">
+    <entry file="file://$PROJECT_DIR$/12_examples_debug/shell_program.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="203" column="67" selection-start-line="203" selection-start-column="67" selection-end-line="203" selection-end-column="67" />
+        <state relative-caret-position="382">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>
