@@ -368,3 +368,36 @@ function getoptExample() {
 #--> `example'
 
 getoptExample --a-long -bhello -cWORLD 2333 666 bash_shell example
+
+
+
+# =================================================================
+# 示例：shift 示例
+# =================================================================
+usage () {
+    echo "$PROGNAME: usage: $PROGNAME [-f file | -i]"
+    return
+}
+
+# process command line options
+interactive=
+filename=
+
+# 位置参数 $1 不为空的时候，这个循环会持续运行
+while [[ -n $1 ]]; do
+    case $1 in
+    -f | --file)            shift
+                            filename=$1
+                            ;;
+    -i | --interactive)     interactive=1
+                            ;;
+    -h | --help)            usage
+                            exit
+                            ;;
+    *)                      usage >&2
+                            exit 1
+                            ;;
+    esac
+    # shift 命令， 用来提升位置参数，以便确保该循环最终会终止
+    shift
+done
