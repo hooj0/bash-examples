@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-29 22:44:12
 # @copyright by hoojo@2018
-# @changelog Added bash `process -> each` example
+# @changelog Added bash `process -> loop each` example
 
 my_arry=(a b "c","d" abc)
 echo "-------FOR循环遍历输出数组--------"
