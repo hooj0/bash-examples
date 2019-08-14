@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-26 20:12:45
 # @copyright by hoojo@2018
-# @changelog Added Bash `example started -> hello world` example
+# @changelog Added Bash `started -> hello world` example
 
 
 # ========================================================================================
