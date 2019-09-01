@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-30 20:59:40
 # @copyright by hoojo@2018
-# @changelog Added bash `output->echo output` example
+# @changelog Added bash `output -> echo` example
 
 
 # ===================================================================
