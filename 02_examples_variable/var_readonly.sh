@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-27 16:04:25
 # @copyright by hoojo@2018
-# @changelog Added bash `variable -> var readonly` example
+# @changelog Added bash `variable -> readonly` example
 
 
 
