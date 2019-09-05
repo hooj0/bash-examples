@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-03 09:52:32
 # @copyright by hoojo@2018
-# @changelog Added bash `variable -> var assignment` example
+# @changelog Added bash `variable -> assignment` example
 
 
 
