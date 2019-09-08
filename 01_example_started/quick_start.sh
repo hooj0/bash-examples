@@ -4,7 +4,7 @@
 # github:   https://github.com/hooj0
 # create date: 2018-11-09
 # copyright by hoojo@2018
-# @changelog Added Bash `example started -> quick start` example
+# @changelog Added Bash `started -> quick start` example
 
 
 
