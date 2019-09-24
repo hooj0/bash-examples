@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-27 22:33:25
 # @copyright by hoojo@2018
-# @changelog Added bash `args->args special` example
+# @changelog Added bash `args -> special` example
 
 #--------------------------------------------------------
 # 特殊参数
