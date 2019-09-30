@@ -4,6 +4,7 @@
 # github:   https://github.com/hooj0
 # create date: 2018-11-19
 # copyright by hoojo@2018
+# @changelog Added bash `debug -> program` example
 
 
 
