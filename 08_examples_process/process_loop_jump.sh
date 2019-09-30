@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-05 20:52:49
 # @copyright by hoojo@2018
-# @changelog Added bash `process->process loop jump` example
+# @changelog Added bash `process -> loop jump` example
 
 # ======================================================================
 #					流程语句———— 跳出循环
