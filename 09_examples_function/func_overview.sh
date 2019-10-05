@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-06 21:32:35
 # @copyright by hoojo@2018
-# @changelog Added bash `function->func started` example
+# @changelog Added bash `function -> overview` example
 
 # ======================================================================
 #					Shell 函数————function

@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-04 22:41:35
 # @copyright by hoojo@2018
-# @changelog Added bash `process->process until` example
+# @changelog Added bash `process -> until` example
 
 
 

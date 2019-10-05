@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-03 09:48:00
 # @copyright by hoojo@2018
-# @changelog Added bash `process->process unlimit loop` example
+# @changelog Added bash `process -> unlimit loop` example
 
 # ======================================================================
 #					流程语句————无限循环
