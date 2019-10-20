@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-29 21:09:07
 # @copyright by hoojo@2018
-# @changelog Added bash `operator->operator file` example
+# @changelog Added bash `operator -> file` example
 
 
 #------------------------------------------------------------------------------------------------------------
