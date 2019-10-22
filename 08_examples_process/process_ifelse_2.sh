@@ -4,7 +4,7 @@
 # github:   https://github.com/hooj0
 # create date: 2018-11-09
 # copyright by hoojo@2018
-# @changelog Added bash `process -> process if else` example
+# @changelog Added bash `process -> if else` example
 
 
 
