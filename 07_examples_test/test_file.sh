@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-31 20:58:43
 # @copyright by hoojo@2018
-# @changelog Added bash `test->test file` example
+# @changelog Added bash `test -> file` example
 
 # ==============================================================================
 #				Shell test 命令————文件测试
