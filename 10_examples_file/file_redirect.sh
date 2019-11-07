@@ -4,7 +4,9 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-07 21:44:32
 # @copyright by hoojo@2018
-# @changelog Added bash `file -> dev null` example
+# @changelog Added bash `file -> redirect` dev null example
+
+
 
 # ======================================================================
 #					Shell 输入/输出重定向————/dev/null 文件
