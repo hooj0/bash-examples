@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-30 20:48:11
 # @copyright by hoojo@2018
-# @changelog Added bash `args -> args read` example
+# @changelog Added bash `args -> read` example
 
 
 
