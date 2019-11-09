@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-27 12:20:23
 # @copyright by hoojo@2018
-# @changelog Added bash `variable -> var declare` example
+# @changelog Added bash `variable -> declare` example
 
 
 
