@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-18 10:29:15
 # @copyright by hoojo@2018
-# @changelog Added bash `process->process select` example
+# @changelog Added bash `process -> select` example
 
 # ======================================================================
 #					Shell —— 循环语句 select
