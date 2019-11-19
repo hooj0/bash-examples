@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-27 18:01:17
 # @copyright by hoojo@2018
-# @changelog Added bash `data type->type strings` example
+# @changelog Added bash `type -> strings` example
 
 
 
