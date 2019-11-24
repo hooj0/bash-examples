@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-04 22:54:41
 # @copyright by hoojo@2018
-# @changelog Added bash `process->process case` example
+# @changelog Added bash `process -> case` example
 
 
 
