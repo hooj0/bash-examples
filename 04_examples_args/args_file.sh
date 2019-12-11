@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-07-28 09:38:08
 # @copyright by hoojo@2018
-# @changelog Add bash file shell option args use
+# @changelog Add bash `args -> file` shell option args use
 
 
 # =================================================================
