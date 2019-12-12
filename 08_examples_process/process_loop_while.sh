@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-03 09:27:43
 # @copyright by hoojo@2018
-# @changelog Added bash `process->process while` example
+# @changelog Added bash `process -> loop while` example
 
 
 
