@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-27 13:05:47
 # @copyright by hoojo@2018
-# @changelog Added bash `variable -> var used` example
+# @changelog Added bash `variable -> used` example
 
 # ==========================================================================
 #					使用变量
