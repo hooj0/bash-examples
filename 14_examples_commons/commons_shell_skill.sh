@@ -4,7 +4,7 @@
 # github:   https://github.com/hooj0
 # create date: 2018-11-27
 # copyright by hoojo@2018
-# @changelog Added bash `shell skill` example
+# @changelog Added bash `commons -> shell skill` example
 
 
 
