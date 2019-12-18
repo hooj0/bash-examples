@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-07-01 16:34:43
 # @copyright by hoojo@2018
-# @changelog Added bash `commons->force-clean` example
+# @changelog Added bash `commons -> force clean` example
 
 
 
