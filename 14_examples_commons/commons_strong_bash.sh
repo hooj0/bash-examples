@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-07-01 21:37:12
 # @copyright by hoojo@2018
-# @changelog Added bash `commons->strong-bash` example
+# @changelog Added bash `commons -> strong bash` example
 
 
 # =================================================================
