@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-30 22:55:48
 # @copyright by hoojo@2018
-# @changelog Added bash `output->printfc output` example
+# @changelog Added bash `output -> printfc` example
 
 # ===========================================================
 #			printf的转义序列
