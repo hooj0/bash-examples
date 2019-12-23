@@ -4,7 +4,7 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-05-29 21:07:50
 # @copyright by hoojo@2018
-# @changelog Added bash `operator->operator overview` example
+# @changelog Added bash `operator -> overview` example
 
 #----------------------------------------------------------------
 # Shell 基本运算符
