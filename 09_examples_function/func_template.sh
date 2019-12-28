@@ -4,7 +4,7 @@
 # github:   https://github.com/hooj0
 # create date: 2018-11-13
 # copyright by hoojo@2018
-# @changelog Added bash `process -> func use` example
+# @changelog Added bash `process -> template` example
 
 
 
