@@ -4,7 +4,9 @@
 # @github: https://github.com/hooj0
 # @create date: 2018-06-07 21:38:19
 # @copyright by hoojo@2018
-# @changelog Added bash `file->file eof` example
+# @changelog Added bash `file -> eof` example
+
+
 
 # ======================================================================
 #					Shell 输入/输出重定向————Here Document
